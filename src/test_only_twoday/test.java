@@ -13,14 +13,22 @@ public class test {
 		employee1.setNumber(sc.nextInt());
 		sc.nextLine();
 		employee1.setName(sc.nextLine());
+		System.out.println("적어주세용");
 		employee1.setDept(sc.nextLine());
+		System.out.println("적어주세용");
 		employee1.setJob(sc.nextLine());
+		System.out.println("적어주세용");
 		employee1.setAge(sc.nextInt());
+		System.out.println("적어주세용");
 		employee1.setGender(sc.next().charAt(0));
+		System.out.println("적어주세용");
 		employee1.setSalary(sc.nextInt());
+		System.out.println("적어주세용");
 		employee1.setBonusPoint(sc.nextDouble());
+		System.out.println("적어주세용");
 		sc.nextLine();
 		employee1.setPhone(sc.nextLine());
+		System.out.println("적어주세용");
 		employee1.setAddress(sc.nextLine());
 
 		System.out.println(employee1.getNumber());
